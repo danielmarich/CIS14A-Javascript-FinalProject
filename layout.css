@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/*
+ Styles for Final Project Layout
+*/
+
+header {
+	height : 84px; /* optionally set an appropriate height for this banner area */
+	background-color: #ff63ca;
+	margin-bottom: 25px;
+}   
+
+nav {
+	width : 200px;  /* optionally set an appropriate width for this sidebar area */
+	float : left;   /* must float left or right to allow main content to sit next to it */
+	height: 600px;  /* set a height as needed if main page text is wrapping below sidebar; */
+	text-align: center;
+	margin-left:20px;
+
+}
+
+#main {
+	margin-right: 100px;
+	margin-left: 220px; /* Match this to nav's width above to keep content away from nav */	
+	font-family: Georgia, serif;
+
+
+}
+
+footer {
+	float: bottom;
+	margin-top: 50px; /* optionally separate copyright from main content by some amount */
+	background-color: #ff63ca;
+	text-align: center;
+}
+
+.co-photo {
+	float: right;
+	margin: 10px 20px 10px 0px;
+	border: 1px #ff63ca solid; 
+}
+
+h1 {
+display: block;
+font-size: 2em;
+margin-top: 0.67em;
+margin-bottom: 0.67em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+
+
+}
+
+h2 {
+display: block;
+font-size: 1.5em;
+margin-top: 0.83em;
+margin-bottom: 0.83em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+
+}
+
+h3 {
+	display: block;
+font-size: 1.17em;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+font-weight: bold;
+}
+
+.frontpage {
+    font-size: 1.17em;
+	display: block;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+}
+p {
+    font-size: 1em;
+	display: block;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+}
+.buynowbutton {
+	 display:block;
+margin-left: auto;
+margin-right: auto;
+ margin-bottom: 10px;
+ width: 366px;
+ height:45px;
+ background:transparent url('buybubblegumnow.png') right top no-repeat;
+}
+
+.buynowbutton:hover {
+   background-image: url('buybubblegumnow-mouseover.png');
+}
+#navform{
+		font-weight: bold;
+	width: 170px;
+}
+#divGuestArea{
+		font-weight: bold;
+		width: 170px;
+}
+#divCartArea{
+margin-top: 20px;
+}
+.minicart{
+	width: 170px;
+	border: 1px solid black;
+}
+.minicart td{
+	border: 1px solid black;
+	padding: 2px;
+}
+#totalcol{
+	width: 15px;
+}
+#headrow{
+	background-color: #ff63ca;
+}
+#totalrow{
+	border-top: 1px solid black;
+	font-weight: bold;
+	background-color: #92f5ff;
+}
+.shoptable{
+	height: 680px;
+	width: 800px;
+	font-size: .8em;
+}
+.shoptable td{
+	border-bottom: 1px solid black;
+	padding: 10px;
+	vertical-align: bottom;
+}
+#bottomshoptable{
+	text-align: right;
+	border-bottom: none;
+}
+.carttable{
+	font-size: 1em;
+}
+.carttable td{
+
+	padding: 10px;
+	vertical-align: bottom;
+	text-align:center;
+}
+
+.carttable th{
+	display: table-cell;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding: 10px;
+	vertical-align: bottom;
+}
+#productrows{
+			border-bottom: 1px solid black;
+}
+#bottomcell{
+border-bottom: 1px solid black;
+		font-size: 1.2em;
+			text-align:right;
+}
+#subtotal{
+border-top: 1px solid black;
+		font-size: 1.2em;
+		text-align:right;
+}
+.checkoutinfo{
+		border-top: 1px solid black;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.checkoutinfo td{
+
+	padding: 10px;
+	vertical-align: bottom;
+	text-align:left;
+}
+.quantity { 
+	width: 35px; 
+}
+.cartquantity { 
+	width: 35px; 
+}
+#errormsg {
+	color: red;
+}
+finalReceipt{
+padding-bottom: 20px;
+}
+.finalReceiptTable{
+		font-size: 1em;
+}
+.finalReceiptTable td{
+
+	padding: 5px;
+	vertical-align: bottom;
+	text-align:left;
+}
+

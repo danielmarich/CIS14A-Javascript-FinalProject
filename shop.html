@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Classic Bubble Gum Company (Daniel Marich Final Project)</title>
+	<link href="reset.css" type="text/css" rel="stylesheet">
+	<link href="layout.css" type="text/css" rel="stylesheet">
+	
+
+
+
+<script type="text/javascript" src="guest-functions.js"></script>
+<script type="text/javascript" src="nav-functions.js"></script>
+<script type="text/javascript" src="cart-functions.js"></script>
+<script>
+window.onload=setSideBar;
+
+</script>
+		
+</head>
+
+<body>
+<header><img src="cbgc-kid-logo.png" width="820" height="84" alt="Classic Bubble Gum Company"/></header>
+<nav>
+<div id="divNavArea">&nbsp;</div>
+
+<p>&nbsp;</p>
+
+<div id="divGuestArea">&nbsp;</div>
+<div id="divCartArea">&nbsp;</div>
+</nav>
+
+<div id="main">
+<img src="buybubblegum.png" width="366" height="45" alt="Buy Bubble Gum!"/>
+<p>Below you will find some of the best bubble gum available not only in America but the World!  Look though our selection and buy a pack today!</p>
+<table class="shoptable">
+  <tbody>
+    <tr>
+      <td><img src="bubblicious.png" width="120" height="120" alt="Bubblicious"/></td>
+      <td><p>Bubblicious</p>
+        <p>This is a great American bubble gum renowned for keeping its flavor for a long, long time!</p></td>
+      <td>Price:<br>$<script>document.write(bubbliciousPrice.toFixed(2))</script></td>
+      <td>
+        <label for="q1">Quantity:<br></label>
+        <form><input type="number" min="1" max="20" name="q1" id="q1" class="quantity" value="1"></form></td>
+      <td><img src="add-to-cart-button1.png" width="124" height="29" alt="add to cart button" onclick="addToCart('q1')" onmouseover="this.src='add-to-cart-button2.png'" onmouseout = "this.src='add-to-cart-button1.png'" /></td>
+    </tr>
+    <tr>
+      <td><img src="bubbleyum.png" width="120" height="120" alt="Bubble Yum"/></td>
+      <td><p>Bubble Yum</p>
+        <p>There has never been a better bubble blowing bubble gum!<br>
+          Bubble Yum is your go to gum when you want to blow a bubble the size of your head!
+        </p></td>
+      <td>Price:<br>$<script>document.write(bubbleYumPrice.toFixed(2))</script></td>
+      <td><label for="q2">Quantity:<br></label>
+        <input type="number" min="1" max="20" name="q2" id="q2" class="quantity" value="1"></td>
+      <td><img src="add-to-cart-button1.png" width="124" height="29" alt="add to cart button" onclick="addToCart('q2')" onmouseover="this.src='add-to-cart-button2.png'" onmouseout = "this.src='add-to-cart-button1.png'" /></td>
+    </tr>
+    <tr>
+      <td><img src="hubbabubba.png" width="120" height="120" alt="Hubba Bubba"/></td>
+      <td><p>Hubba Bubba</p>
+        <p>This limited production bubble gum has a one of kind taste that is in high demand.
+          This company may be small but it produces one of the biggest tasting bubble gums ever made!<br>
+        </p></td>
+      <td>Price:<br>$<script>document.write(hubbaBubbaPrice.toFixed(2))</script></td>
+      <td><label for="q3">Quantity:<br></label>
+        <input type="number" min="1" max="20" name="q3" id="q3" class="quantity" value="1"></td>
+      <td><img src="add-to-cart-button1.png" width="124" height="29" alt="add to cart button" onclick="addToCart('q3')" onmouseover="this.src='add-to-cart-button2.png'" onmouseout = "this.src='add-to-cart-button1.png'" /></td>
+    </tr>
+    <tr>
+      <td><img src="juicyfruit.png" width="120" height="120" alt="Juicy Fruit Strawberry Bubble Gum"/></td>
+      <td><p>Juicy Fruit Strawberry Bubble Gum</p>
+        <p>This is a limited edition bubble gum from the world famous Juicy Fruit company<br>
+        Juicy Fruit continues to make the best gums generation after generation, and this Strawberry Bubble Gum is a bubble gum aficionados delicacy!</p></td>
+      <td>Price:<br>$<script>document.write(juicyFruitStrawberry.toFixed(2))</script></td>
+      <td><label for="q4">Quantity:<br></label>
+        <input type="number" min="1" max="20" name="q4" id="q4" class="quantity" value="1"></td>
+      <td><img src="add-to-cart-button1.png" width="124" height="29" alt="add to cart button" onclick="addToCart('q4')" onmouseover="this.src='add-to-cart-button2.png'" onmouseout = "this.src='add-to-cart-button1.png'" /></td>
+    </tr>
+    <tr>
+      <td id="bottomshoptable" colspan="5"><form><input type="button" value="Empty the Cart" onclick="clearCart()">&nbsp; &nbsp; &nbsp;<input type="button" value="Proceed to Cart" onclick="location.assign('cart.html')">&nbsp; &nbsp; &nbsp;<br> <br>
+      </form> 
+      </td>
+      </tr>
+  </tbody>
+</table>
+
+</div>
+<footer>
+&#169; 2016 Classic Bubble Gum Company.
+</footer>
+</body>
+</html>
+
