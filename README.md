@@ -1,0 +1,4 @@
+# CIS14A-Javascript-FinalProject
+This is the final project for my CIS 14a Javascript class at RCC.
+This project was completed to show the cumulative knowledge learned about using JavaScript as a Web development language.  
+This project website demonstrates a JavaScript program that runs successfully within a browser environment using various data types, variables, operators, expressions, statements, decisions, loops, and functions that effectively validate forms, manipulate frames and windows, and employ cookies. In addition, it demonstrates JavaScript coding that applies the usage of objects, properties, methods, and events of the Document Object Model (DOM) to provide real-world website features and enhancements. It also was a good opportunity to present a solid foundation of visual design elements from years of Web design experience.
