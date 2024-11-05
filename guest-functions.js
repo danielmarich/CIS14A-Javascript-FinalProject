@@ -1,4 +1,5 @@
 // JavaScript Document
+// CIS14A Project
 
 function updateName()
 {
